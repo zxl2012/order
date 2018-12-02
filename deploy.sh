@@ -35,7 +35,6 @@ rm -f $TOMCAT_APP_PATH/webapps/order.war
 cp $PROJ_PATH/order/target/order.war $TOMCAT_APP_PATH/webapps/
 
 cd $TOMCAT_APP_PATH/webapps/
-sudo chmod -R 777 order.war
 #mv order.war ROOT.war
 
 # 启动Tomcat
